@@ -1,0 +1,41 @@
+{
+  "configurations" : [
+    {
+      "id" : "B00AC1D9-E29E-4438-87B8-FB89E9C62917",
+      "name" : "Test Server URL 1",
+      "options" : {
+        "environmentVariableEntries" : [
+          {
+            "key" : "signupURL",
+            "value" : "\"https:\/\/tlyqhtlbn8.execute-api.us-east-1.amazonaws.com\/prod\/signup-mock-service\/users"
+          }
+        ]
+      }
+    },
+    {
+      "id" : "4E7C9A05-5862-4FAD-8899-53931A1EE3DB",
+      "name" : "Configuration 2",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:PhotoAppWithUnitTestExample.xcodeproj",
+      "identifier" : "F1DD1CA629FB9A4F0022172D",
+      "name" : "PhotoAppWithUnitTestExample"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:PhotoAppWithUnitTestExample.xcodeproj",
+        "identifier" : "F1DD1CC629FB9A540022172D",
+        "name" : "PhotoAppWithUnitTestExampleUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

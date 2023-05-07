@@ -1,6 +1,6 @@
 //
 //  PhotoAppWithUnitTestExampleUITestsLaunchTests.swift
-//  PhotoAppWithUnitTestExampleUITests
+//  SignupFlowUITests
 //
 //  Created by Yurii Sameliuk on 28/04/2023.
 //

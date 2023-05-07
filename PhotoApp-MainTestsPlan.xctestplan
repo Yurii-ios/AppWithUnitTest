@@ -1,0 +1,31 @@
+{
+  "configurations" : [
+    {
+      "id" : "67DE0043-FEE4-4B7F-9297-49A383DD4204",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:PhotoAppWithUnitTestExample.xcodeproj",
+        "identifier" : "F1DD1CBC29FB9A540022172D",
+        "name" : "PhotoAppWithUnitTestExampleTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:PhotoAppWithUnitTestExample.xcodeproj",
+        "identifier" : "F1DD1CC629FB9A540022172D",
+        "name" : "PhotoAppWithUnitTestExampleUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
